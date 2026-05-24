@@ -1,0 +1,157 @@
+digraph band {
+	graph [color=red minlen=0 rankdir=TB ratio=compress]
+	wdm [fillcolor=darkgreen fontcolor=white fontname="Gill Sans" shape=note style=filled]
+	cbo [fillcolor=darkgreen fontcolor=white fontname="Gill Sans" shape=note style=filled]
+	owi [fillcolor=darkgreen fontcolor=white fontname="Gill Sans" shape=note style=filled]
+	cbo [fillcolor=darkgreen fontcolor=white fontname="Gill Sans" shape=note style=filled]
+	cbo [fillcolor=darkgreen fontcolor=white fontname="Gill Sans" shape=note style=filled]
+	qtv [fillcolor=darkgreen fontcolor=white fontname="Gill Sans" shape=note style=filled]
+	qtv [fillcolor=darkgreen fontcolor=white fontname="Gill Sans" shape=note style=filled]
+	qtv [fillcolor=darkgreen fontcolor=white fontname="Gill Sans" shape=note style=filled]
+	cbo [fillcolor=darkgreen fontcolor=white fontname="Gill Sans" shape=note style=filled]
+	ewt [fillcolor=darkgreen fontcolor=white fontname="Gill Sans" shape=note style=filled]
+	qtv [fillcolor=darkgreen fontcolor=white fontname="Gill Sans" shape=note style=filled]
+	bqf [fillcolor=darkgreen fontcolor=white fontname="Gill Sans" shape=note style=filled]
+	ewt [fillcolor=darkgreen fontcolor=white fontname="Gill Sans" shape=note style=filled]
+	ewt [fillcolor=darkgreen fontcolor=white fontname="Gill Sans" shape=note style=filled]
+	qtv [fillcolor=darkgreen fontcolor=white fontname="Gill Sans" shape=note style=filled]
+	cbo [fillcolor=darkgreen fontcolor=white fontname="Gill Sans" shape=note style=filled]
+	qtv [fillcolor=darkgreen fontcolor=white fontname="Gill Sans" shape=note style=filled]
+	qtv [fillcolor=darkgreen fontcolor=white fontname="Gill Sans" shape=note style=filled]
+	cbo [fillcolor=darkgreen fontcolor=white fontname="Gill Sans" shape=note style=filled]
+	ewt [fillcolor=darkgreen fontcolor=white fontname="Gill Sans" shape=note style=filled]
+	0 [label=0 color=black fillcolor=darkorange fontcolor=white fontname="Gill Sans" shape=circle style=filled]
+	1 [label=1 color=black fillcolor=darkorange fontcolor=white fontname="Gill Sans" shape=circle style=filled]
+	2 [label=2 color=black fillcolor=darkorange fontcolor=white fontname="Gill Sans" shape=circle style=filled]
+	3 [label=3 color=black fillcolor=darkorange fontcolor=white fontname="Gill Sans" shape=circle style=filled]
+	4 [label=4 color=black fillcolor=darkorange fontcolor=white fontname="Gill Sans" shape=circle style=filled]
+	5 [label=5 color=black fillcolor=darkorange fontcolor=white fontname="Gill Sans" shape=circle style=filled]
+	6 [label=6 color=black fillcolor=darkorange fontcolor=white fontname="Gill Sans" shape=circle style=filled]
+	7 [label=7 color=black fillcolor=darkorange fontcolor=white fontname="Gill Sans" shape=circle style=filled]
+	8 [label=8 color=black fillcolor=darkorange fontcolor=white fontname="Gill Sans" shape=circle style=filled]
+	9 [label=9 color=black fillcolor=darkorange fontcolor=white fontname="Gill Sans" shape=circle style=filled]
+	10 [label=10 color=black fillcolor=darkorange fontcolor=white fontname="Gill Sans" shape=circle style=filled]
+	11 [label=11 color=black fillcolor=darkorange fontcolor=white fontname="Gill Sans" shape=circle style=filled]
+	12 [label=12 color=black fillcolor=darkorange fontcolor=white fontname="Gill Sans" shape=circle style=filled]
+	13 [label=13 color=black fillcolor=darkorange fontcolor=white fontname="Gill Sans" shape=circle style=filled]
+	14 [label=14 color=black fillcolor=darkorange fontcolor=white fontname="Gill Sans" shape=circle style=filled]
+	15 [label=15 color=black fillcolor=darkorange fontcolor=white fontname="Gill Sans" shape=circle style=filled]
+	16 [label=16 color=black fillcolor=darkorange fontcolor=white fontname="Gill Sans" shape=circle style=filled]
+	17 [label=17 color=black fillcolor=darkorange fontcolor=white fontname="Gill Sans" shape=circle style=filled]
+	18 [label=18 color=black fillcolor=darkorange fontcolor=white fontname="Gill Sans" shape=circle style=filled]
+	19 [label=19 color=black fillcolor=darkorange fontcolor=white fontname="Gill Sans" shape=circle style=filled]
+	ewt -> 0
+	wdm -> 0
+	cbo -> 0
+	0 -> ewt
+	0 -> qtv
+	0 -> wdm
+	0 -> cbo
+	0 -> qtv
+	ewt -> 1
+	qtv -> 1
+	1 -> owi
+	1 -> bqf
+	1 -> wdm
+	1 -> qtv
+	ewt -> 2
+	wdm -> 2
+	2 -> wdm
+	2 -> qtv
+	2 -> cbo
+	qtv -> 3
+	cbo -> 3
+	3 -> ewt
+	3 -> ewt
+	3 -> ewt
+	ewt -> 4
+	cbo -> 4
+	4 -> wdm
+	4 -> cbo
+	4 -> wdm
+	4 -> qtv
+	cbo -> 5
+	ewt -> 5
+	5 -> ewt
+	ewt -> 6
+	wdm -> 6
+	6 -> qtv
+	6 -> ewt
+	6 -> wdm
+	ewt -> 7
+	wdm -> 7
+	qtv -> 7
+	7 -> cbo
+	7 -> cbo
+	7 -> qtv
+	7 -> qtv
+	owi -> 8
+	bqf -> 8
+	wdm -> 8
+	8 -> cbo
+	8 -> cbo
+	8 -> ewt
+	ewt -> 9
+	wdm -> 9
+	cbo -> 9
+	9 -> ewt
+	9 -> wdm
+	9 -> qtv
+	ewt -> 10
+	qtv -> 10
+	10 -> cbo
+	10 -> qtv
+	wdm -> 11
+	cbo -> 11
+	qtv -> 11
+	11 -> wdm
+	11 -> ewt
+	11 -> qtv
+	11 -> qtv
+	bqf -> 12
+	qtv -> 12
+	cbo -> 12
+	12 -> ewt
+	12 -> qtv
+	12 -> wdm
+	qtv -> 13
+	wdm -> 13
+	cbo -> 13
+	13 -> ewt
+	13 -> cbo
+	owi -> 14
+	cbo -> 14
+	qtv -> 14
+	14 -> ewt
+	14 -> owi
+	14 -> wdm
+	14 -> qtv
+	qtv -> 15
+	bqf -> 15
+	wdm -> 15
+	ewt -> 15
+	15 -> ewt
+	15 -> ewt
+	wdm -> 16
+	cbo -> 16
+	16 -> bqf
+	16 -> ewt
+	16 -> qtv
+	owi -> 17
+	wdm -> 17
+	17 -> ewt
+	17 -> cbo
+	17 -> cbo
+	17 -> cbo
+	ewt -> 18
+	qtv -> 18
+	18 -> ewt
+	18 -> cbo
+	bqf -> 19
+	wdm -> 19
+	ewt -> 19
+	qtv -> 19
+	19 -> wdm
+	19 -> cbo
+	19 -> qtv
+}

@@ -1,0 +1,6 @@
+digraph agent {
+	graph [rankdir=TB]
+	avh [fontcolor=white fontname="Gill Sans" shape=box style=filled]
+	uve [fontname="Gill Sans" shape=box style=filled]
+	avh -> uve [label=" 0" fontname="Gill Sans"]
+}
