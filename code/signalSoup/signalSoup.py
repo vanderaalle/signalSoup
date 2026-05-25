@@ -418,7 +418,11 @@ class Band:
                       fontcolor="black", fontname='Gill Sans')
             graph.node(effector, style='filled', shape='box', 
                       fontcolor="black", fontname='Gill Sans')
-            graph.edge(detector, effector, color=edge_color, 
+            graph.edge(detector, effector, color=edge_color,
                       label=label, fontname='Gill Sans', fontcolor=edge_color)
-        
+
         return graph
+
+
+# Alias for theoretical consistency with the paper terminology
+CAg = CommunicativeAgent
