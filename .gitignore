@@ -18,6 +18,7 @@ build/
 # Editor/tool backups and config
 .*.bkp
 .jupyter/
+.venv/
 
 # Dated/temp file variants
 *.svg.[0-9]*
