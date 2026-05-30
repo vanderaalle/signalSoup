@@ -13,7 +13,8 @@ Presented at [Evolang 2026](https://evolang2026.github.io/).
 | Path | Description |
 |------|-------------|
 | [`docs/signalSoup.pdf`](docs/signalSoup.pdf) | Conference paper |
-| [`docs/presentations/`](docs/presentations/) | Presentation slides (PDF + HTML) |
+| [Evolang 2026 slides](https://vanderaalle.github.io/signalSoup/presentations/sigSoupPres.html) · [PDF](docs/presentations/sigSoupPres.pdf) | Evolang 2026 presentation |
+| [*Inheriting Eco* slides](https://vanderaalle.github.io/signalSoup/presentations/ecoSoupPres.html) · [PDF](docs/presentations/ecoSoupPres.pdf) | Inheriting Eco (Bologna, 2026) presentation |
 | [`signalSoup.ipynb`](signalSoup.ipynb) | Main documented notebook — model walkthrough with examples |
 | [`simulations.ipynb`](simulations.ipynb) | Simulation experiments — generates figures |
 | [`figures/`](figures/) | Figures used in the paper (`sf.pdf`, `10k.pdf`) |
@@ -93,7 +94,7 @@ Requires [Graphviz](https://graphviz.org/download/) (system package + Python bin
 
 ---
 
-## References
+## Main references
 
 - Eco, U. (1976). *A Theory of Semiotics*. Indiana University Press.
 - Holland, J. H. (2014). *Complexity: A Very Short Introduction*. Oxford University Press.
